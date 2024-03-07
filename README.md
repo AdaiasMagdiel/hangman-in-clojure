@@ -10,12 +10,14 @@ The project has the following folder structure:
 
 ```
 /
-└── hangman
-    └── main.clj
-└── words.txt
+└── src
+    ├── hangman.clj
+    ├── words.txt
+    └── hangman
+        └── utils.clj
 ```
 
-The `main.clj` file contains the main source code of the game, while `words.txt` is a file storing the words used in the game.
+The `hangman.clj` file contains the main source code of the game, while `words.txt` is a file storing the words used in the game. The `utils.clj`, in the `hangman` folder, contains some functions to manipulate the words list.
 
 ## How to Play
 
@@ -30,7 +32,7 @@ Make sure you have the Clojure environment installed on your machine.
 You can run the game as follows:
 
 ```bash
-$ clj main.clj
+$ clj -M -m hangman
 ```
 
 This will start the game, and you can begin playing!
