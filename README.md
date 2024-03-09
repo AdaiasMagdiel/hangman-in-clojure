@@ -21,13 +21,7 @@ The `hangman.clj` file contains the main source code of the game, while `words.t
 
 ## How to Play
 
-To play the game, you can run the `main.clj` file in a Clojure environment.
-
-### Requirements
-
 Make sure you have the Clojure environment installed on your machine.
-
-### Running the Game
 
 You can run the game as follows:
 
